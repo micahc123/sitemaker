@@ -29,7 +29,15 @@ and a thumbnail.
 
 ## Install
 
-1. Download `site-maker.zip` and unzip it.
+**Quickest:** clone this repo and copy the skill folder in:
+```bash
+git clone https://github.com/micahc123/sitemaker.git
+mkdir -p ~/.claude/skills && cp -r sitemaker/site-maker ~/.claude/skills/
+```
+
+**Or by hand:**
+
+1. Download `site-maker.zip` from this repo and unzip it.
 2. Copy the `site-maker` folder into your Claude Code skills folder:
    ```bash
    mkdir -p ~/.claude/skills
